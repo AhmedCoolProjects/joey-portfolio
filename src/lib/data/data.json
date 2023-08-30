@@ -1,0 +1,42 @@
+{
+	"meta": {
+		"first_name": "First Name",
+		"last_name": "Last Name",
+		"email": "Email",
+		"role": "Role",
+		"location": "Location"
+	},
+	"previous_works": [
+		{
+			"title": "First Work",
+			"description": "First Work Description",
+			"image": "/favicon.png",
+			"link": "http://www.google.com",
+			"date": "Released on January 13th, 2022",
+			"more": "http://www.google.com"
+		},
+		{
+			"title": "Second Work",
+			"description": "Second Work Description",
+			"image": "/favicon.png",
+			"link": "http://www.google.com",
+			"date": "Released on January 13th, 2022",
+			"more": ""
+		},
+		{
+			"title": "Third Work",
+			"description": "Third Work Description",
+			"image": "/favicon.png",
+			"link": "http://www.google.com",
+			"date": "Released on January 13th, 2022",
+			"more": ""
+		},
+		{
+			"title": "Fourth Work",
+			"description": "Fourth Work Description",
+			"image": "/favicon.png",
+			"link": "http://www.google.com",
+			"date": "Released on January 13th, 2022"
+		}
+	]
+}

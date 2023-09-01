@@ -1,17 +1,10 @@
-<script>
-	import { Timeline, Button } from 'flowbite-svelte';
-	import CustomTimelineItem from './customTimelineItem.svelte';
+<script lang="ts">
 	import data from '$lib/data/data.json';
+	import CustomTimelineItem from './customTimelineItem.svelte';
 </script>
 
-<Timeline order="vertical">
+<ol class="relative border-l border-gray-200 dark:border-gray-700">
 	{#each data.previous_works as work}
-		<CustomTimelineItem title={work.title} date={work.date} description={work.description}>
-			{#if work.more}
-				<Button color="alternative">
-					{work.more}
-				</Button>
-			{/if}
-		</CustomTimelineItem>
+		<CustomTimelineItem {...work} />
 	{/each}
-</Timeline>
+</ol>

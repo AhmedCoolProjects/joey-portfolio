@@ -13,23 +13,24 @@
 			"image": "/favicon.png",
 			"link": "http://www.google.com",
 			"date": "Released on January 13th, 2022",
-			"more": "http://www.google.com"
+			"more": {
+				"title": "more",
+				"link": "http://www.google.com"
+			}
 		},
 		{
 			"title": "Second Work",
 			"description": "Second Work Description",
 			"image": "/favicon.png",
 			"link": "http://www.google.com",
-			"date": "Released on January 13th, 2022",
-			"more": ""
+			"date": "Released on January 13th, 2022"
 		},
 		{
 			"title": "Third Work",
 			"description": "Third Work Description",
 			"image": "/favicon.png",
 			"link": "http://www.google.com",
-			"date": "Released on January 13th, 2022",
-			"more": ""
+			"date": "Released on January 13th, 2022"
 		},
 		{
 			"title": "Fourth Work",

@@ -3,7 +3,7 @@
 	import CustomTimelineItem from './customTimelineItem.svelte';
 </script>
 
-<ol class="relative border-l border-gray-200 dark:border-gray-700">
+<ol class="relative border-l max-w-[85%] border-blue-300">
 	{#each data.previous_works as work}
 		<CustomTimelineItem {...work} />
 	{/each}

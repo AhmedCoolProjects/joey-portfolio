@@ -9,14 +9,15 @@
 	"previous_works": [
 		{
 			"title": "First Work",
-			"description": "First Work Description",
+			"description": "random text random text random text random text random text random text random text random text random text random text random text random text random text random text",
 			"image": "/favicon.png",
 			"link": "http://www.google.com",
 			"date": "Released on January 13th, 2022",
 			"more": {
 				"title": "more",
 				"link": "http://www.google.com"
-			}
+			},
+			"badge": "Latest"
 		},
 		{
 			"title": "Second Work",

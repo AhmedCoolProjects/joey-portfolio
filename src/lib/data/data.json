@@ -11,12 +11,20 @@
 			"title": "First Work",
 			"description": "random text random text random text random text random text random text random text random text random text random text random text random text random text random text",
 			"image": "/favicon.png",
-			"link": "http://www.google.com",
+			"link": "/",
 			"date": "Released on January 13th, 2022",
-			"more": {
-				"title": "more",
-				"link": "http://www.google.com"
-			},
+			"more": [
+				{
+					"title": "testimonial",
+					"link": "/",
+					"image": "/svgs/x.svg"
+				},
+				{
+					"title": "more",
+					"link": "/",
+					"image": "/svgs/in.svg"
+				}
+			],
 			"badge": "Latest"
 		},
 		{

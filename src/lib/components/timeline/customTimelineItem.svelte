@@ -9,10 +9,8 @@
 	export let more: {
 		title: string;
 		link: string;
-	} = {
-		title: '',
-		link: ''
-	};
+		image: string;
+	}[] = [];
 </script>
 
 <li class="mb-10 ml-6">
@@ -36,7 +34,7 @@
 	<p class="mb-4 ml-2 max-w-[85%] md:max-w-md text-base font-normal text-gray-500">
 		{description}
 	</p>
-	{#if more.title !== ''}
-		<MoreButton {...more} />
-	{/if}
+	{#each more as moreItem}
+		<MoreButton {...moreItem} />
+	{/each}
 </li>
